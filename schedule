@@ -1,0 +1,4 @@
+完成一半的imap4ssl.py
+	到getFromSubject(count)
+	问题是getTextContent(count) 获取的是整个MIME 部分。
+	getTextContent() 想只获取邮件正文部分。
